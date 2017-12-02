@@ -1,4 +1,6 @@
-for (var button = document.getElementsByClassName('button'); button < button.length;) {	
-  alert ('This is button')
-  button.innerText = 'Hello button'
+var button = document.getElementsByClassName('button')
+for (var i = 0; i < button.length;) {	
+alert ('This is button');
+button.innerText = 'Hello button';
+console.log(button);
 }
